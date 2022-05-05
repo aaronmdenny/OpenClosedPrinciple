@@ -1,14 +1,14 @@
 ﻿using OCPLibrary;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleUI
 {
     /*
      * Open-Closed Principle - Objects should be open to extension, but closed for modification.
+     * 
+     * Scenario: We need to be able to add employees who are managers. We need to identify that an employee is a
+     * manager.
      */
     class Program
     {
@@ -17,7 +17,7 @@ namespace ConsoleUI
             List<PersonModel> applicants = new List<PersonModel>
             {
                 new PersonModel { FirstName = "Tim", LastName = "Corey" },
-                new PersonModel { FirstName = "Sue", LastName = "Storm" },
+                new PersonModel { FirstName = "Sue", LastName = "Storm", TypeOfEmployee = EmployeeType.Manager },
                 new PersonModel { FirstName = "Nancy", LastName = "Roman" }
             };
 
@@ -31,7 +31,7 @@ namespace ConsoleUI
 
             foreach (var emp in employees)
             {
-                Console.WriteLine($"{emp.FirstName} {emp.LastName}: {emp.EmailAddress}");
+                Console.WriteLine($"{emp.FirstName} {emp.LastName}: {emp.EmailAddress}; IsManager: {emp.IsManager}");
             }
 
             Console.ReadLine();
