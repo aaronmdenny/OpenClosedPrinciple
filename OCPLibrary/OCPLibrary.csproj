@@ -45,6 +45,7 @@
     <Compile Include="EmployeeModel.cs" />
     <Compile Include="IAccounts.cs" />
     <Compile Include="IApplicantModel.cs" />
+    <Compile Include="ManagerAccounts.cs" />
     <Compile Include="ManagerModel.cs" />
     <Compile Include="PersonModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

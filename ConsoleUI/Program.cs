@@ -17,7 +17,7 @@ namespace ConsoleUI
             List<IApplicantModel> applicants = new List<IApplicantModel>
             {
                 new PersonModel { FirstName = "Tim", LastName = "Corey" },
-                new PersonModel { FirstName = "Sue", LastName = "Storm" },
+                new ManagerModel { FirstName = "Sue", LastName = "Storm" },
                 new PersonModel { FirstName = "Nancy", LastName = "Roman" }
             };
 
