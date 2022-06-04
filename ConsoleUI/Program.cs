@@ -14,7 +14,7 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            List<PersonModel> applicants = new List<PersonModel>
+            List<IApplicantModel> applicants = new List<IApplicantModel>
             {
                 new PersonModel { FirstName = "Tim", LastName = "Corey" },
                 new PersonModel { FirstName = "Sue", LastName = "Storm" },
