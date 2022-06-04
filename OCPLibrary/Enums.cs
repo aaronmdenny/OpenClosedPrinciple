@@ -3,6 +3,7 @@
     public enum EmployeeType
     {
         Staff,
-        Manager
+        Manager,
+        Executive
     }
 }

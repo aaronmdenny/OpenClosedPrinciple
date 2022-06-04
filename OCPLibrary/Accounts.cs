@@ -15,10 +15,28 @@
 
             /*
              * Modifying the Create() method violates the Open-Closed Principle.
+             * 
+             * In adding the "Executive" employee type, we have changed the way we evaluate the output's IsManager
+             * property, which may introduce a bug to a working class.
              */
-            if (person.TypeOfEmployee == EmployeeType.Manager)
+            //if (person.TypeOfEmployee == EmployeeType.Manager)
+            //{
+            //    output.IsManager = true;
+            //}
+
+            switch (person.TypeOfEmployee)
             {
-                output.IsManager = true;
+                case EmployeeType.Staff:
+                    break;
+                case EmployeeType.Manager:
+                    output.IsManager = true;
+                    break;
+                case EmployeeType.Executive:
+                    output.IsManager = true;
+                    output.IsExecutive = true;
+                    break;
+                default:
+                    break;
             }
 
             return output;
