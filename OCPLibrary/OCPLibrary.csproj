@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Accounts.cs" />
     <Compile Include="EmployeeModel.cs" />
+    <Compile Include="ExecutiveAccounts.cs" />
+    <Compile Include="ExecutiveModel.cs" />
     <Compile Include="IAccounts.cs" />
     <Compile Include="IApplicantModel.cs" />
     <Compile Include="ManagerAccounts.cs" />
