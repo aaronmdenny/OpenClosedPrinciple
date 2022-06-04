@@ -2,6 +2,8 @@
 {
     /*
      * This class will demonstrate the Open-Closed Principle.
+     * 
+     * We never have to change this class again. We just implement IAccounts differently as needed.
      */
     public class Accounts: IAccounts
     {
