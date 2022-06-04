@@ -1,4 +1,6 @@
-﻿namespace OCPLibrary
+﻿using OCPLibrary.Applicants;
+
+namespace OCPLibrary.Accounts
 {
     /*
      * This class will demonstrate the Open-Closed Principle.

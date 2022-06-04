@@ -1,4 +1,6 @@
-﻿namespace OCPLibrary
+﻿using OCPLibrary.Accounts;
+
+namespace OCPLibrary.Applicants
 {
     /// <summary>
     /// We can implement this interface in new ways as needed. For example, when we have an applicant who is a manager

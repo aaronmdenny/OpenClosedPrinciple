@@ -1,4 +1,6 @@
-﻿namespace OCPLibrary
+﻿using OCPLibrary.Accounts;
+
+namespace OCPLibrary.Applicants
 {
     /// <summary>
     /// We never have to change this class again. Previously, we added an enum to indicate the type of applicant. Now,
@@ -12,6 +14,6 @@
 
         public string LastName { get; set; }
 
-        public IAccounts AccountProcessor { get; set; } = new Accounts();
+        public IAccounts AccountProcessor { get; set; } = new Accounts.Accounts();
     }
 }

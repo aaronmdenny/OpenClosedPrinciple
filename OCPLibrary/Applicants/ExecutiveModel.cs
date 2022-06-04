@@ -1,4 +1,6 @@
-﻿namespace OCPLibrary
+﻿using OCPLibrary.Accounts;
+
+namespace OCPLibrary.Applicants
 {
     public class ExecutiveModel : IApplicantModel
     {

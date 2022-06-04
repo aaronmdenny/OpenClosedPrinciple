@@ -1,4 +1,6 @@
-﻿namespace OCPLibrary
+﻿using OCPLibrary.Applicants;
+
+namespace OCPLibrary.Accounts
 {
     /// <summary>
     /// This illustrates OCP. By extracting the IAccounts interface and implementing it in the Accounts class, and here,
